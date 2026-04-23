@@ -1,0 +1,7 @@
+# This is a file for you to write an un-named mutation. 
+# Only one un-named mutation is allowed per file.
+mutation {
+  skill_insert(
+    data: {id: "11111111222233334444555555555558", authorClerkId: "user_3ClUkFPxyK6AfUIqredYsu7SJDc", createdAt: "2026-04-23T18:11:56.192Z", description: "Generates advanced search agents that combine semantic search, tool calls, and dynamic reasoning for large datasets.", installCommand: "npm install @skild/agentic-search-builder", promptConfig: "You're a professional perfomance optimization engineer", tags: ["semantic", "search", "agent", "pipeline"], title: "Agentic Search Builder", usageExample: "Review the code and optimize it"}
+  )
+}
