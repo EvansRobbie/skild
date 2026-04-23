@@ -25,7 +25,7 @@ const SkillCard = ({
     try {
       await navigator.clipboard.writeText(installCommand);
       setCopied(true);
-      window.setTimeout(() => setCopied(false), 1500);
+      setTimeout(() => setCopied(false), 1500);
     } catch (error) {
       console.error("Copy failed", error);
     }
@@ -55,7 +55,11 @@ const SkillCard = ({
             <img src="/logo512.png" alt="author avatar" className="avatar" />
             <div className="author-copy">
               <p>Evans</p>
-              <p>{new Date(createdAt as string).toLocaleDateString()}</p>
+              <p>
+                {createdAt
+                  ? new Date(createdAt as string).toLocaleDateString()
+                  : "Unknown Date"}
+              </p>
             </div>
           </div>
           <p className="category">{category}</p>
