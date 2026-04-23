@@ -1,0 +1,67 @@
+export const dummySkills: SkillRecord[] = [
+	{
+		id: "skill_001",
+		title: "Agentic Search Builder",
+		slug: "agentic-search-builder",
+		description:
+			"Generates advanced search agents that combine semantic search, tool calls, and dynamic reasoning for large datasets.",
+		category: "Search",
+		tags: ["semantic", "search", "agent", "pipeline"],
+		installCommand: "npm install @skild/agentic-search-builder",
+		authorClerkId: "clerk_1001",
+		authorEmail: "search@skild.dev",
+		createdAt: "2026-04-18T09:24:00.000Z",
+	},
+	{
+		id: "skill_002",
+		title: "Workflow Orchestrator",
+		slug: "workflow-orchestrator",
+		description:
+			"Coordinates multi-step agent workflows with retry logic, conditional branching, and state persistence.",
+		category: "Orchestration",
+		tags: ["workflow", "automation", "agent", "state"],
+		installCommand: "npm install @skild/workflow-orchestrator",
+		authorClerkId: "clerk_1002",
+		authorEmail: "orchestration@skild.dev",
+		createdAt: "2026-04-20T14:12:00.000Z",
+	},
+	{
+		id: "skill_003",
+		title: "Prompt Tuning Studio",
+		slug: "prompt-tuning-studio",
+		description:
+			"Provides tools for tuning prompts, evaluating outputs, and generating reusable prompt templates for agent skill development.",
+		category: "Prompting",
+		tags: ["prompt", "tuning", "evaluation", "templates"],
+		installCommand: "npm install @skild/prompt-tuning-studio",
+		authorClerkId: "clerk_1003",
+		authorEmail: "prompt@skild.dev",
+		createdAt: "2026-04-15T08:45:00.000Z",
+	},
+	{
+		id: "skill_004",
+		title: "Data Fetch Connector",
+		slug: "data-fetch-connector",
+		description:
+			"Connects agents to external APIs with built-in rate limiting, caching, and OAuth support.",
+		category: "Integration",
+		tags: ["api", "connector", "caching", "oauth"],
+		installCommand: "npm install @skild/data-fetch-connector",
+		authorClerkId: "clerk_1004",
+		authorEmail: "integrations@skild.dev",
+		createdAt: "2026-04-21T11:30:00.000Z",
+	},
+	{
+		id: "skill_005",
+		title: "Diagnostics Reporter",
+		slug: "diagnostics-reporter",
+		description:
+			"Collects logs, metrics, and execution traces from skills to help teams troubleshoot and optimize agent behavior.",
+		category: "Monitoring",
+		tags: ["diagnostics", "monitoring", "logging", "trace"],
+		installCommand: "npm install @skild/diagnostics-reporter",
+		authorClerkId: "clerk_1005",
+		authorEmail: "monitoring@skild.dev",
+		createdAt: null,
+	},
+];
