@@ -19,6 +19,7 @@
     "@clerk/clerk-react": "^5.61.3",
     "@clerk/tanstack-react-start": "^1.1.5",
     "@cloudflare/vite-plugin": "^1.26.0",
+    "@dataconnect/generated": "link:src/dataconnect-generated",
     "@tailwindcss/vite": "^4.1.18",
     "@tanstack/react-devtools": "latest",
     "@tanstack/react-query": "latest",
@@ -38,7 +39,8 @@
     "react-dom": "^19.2.0",
     "tailwind-merge": "^3.0.2",
     "tailwindcss": "^4.1.18",
-    "tw-animate-css": "^1.3.6"
+    "tw-animate-css": "^1.3.6",
+    "firebase": "^11.0.2"
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.5",
